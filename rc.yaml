@@ -1,7 +1,9 @@
 apiVersion: v1
 kind: ReplicationController
-labels:
-  app:my-app
+metadata: 
+  name: my-rc
+  labels:
+    app:  my-app
 spec:
   relicas: 3
   template:
