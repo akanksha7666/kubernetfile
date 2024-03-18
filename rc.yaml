@@ -15,11 +15,11 @@ spec:
         - name: my-container
           image: nginx
           ports:
-            - containerPort:80
+            - containerPort:  80
 
         - name: tomcat-container
           image:  tomcat
           ports:
-            - containerPort:8080
+            - containerPort:  8080
     selector:
       app:my-app 
